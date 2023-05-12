@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #form{
+            margin: 50px auto;
+            width: 40%;
+            border: 1px solid black;
+            border-radius: 10px;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+        #form button {
+            margin: 20px 0px;
+            width: 30%;
+            border-radius: 4px;
+        }
+        #form input {
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <label>
+            <input type="text">
+            type your login
+        </label>
+        <hr>
+        <label>
+            <input type="password">
+            type your password
+        </label>
+        <hr>
+        <label>
+            <input type="text" id="inputEmail">
+            type your Email
+        </label>
+        <button type="submit">submit</button>
+    </form>
+</body>
+<script src="app.js"></script>
+</html>
